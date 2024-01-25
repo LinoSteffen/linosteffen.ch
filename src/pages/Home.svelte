@@ -48,7 +48,7 @@
             <p>Ich bin Lino Steffen</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Ihr <Hoverable text="Video Creator" gifsrc="/assets/hover/videocreator.gif" color="#de6b28" alt="Video Creator gif"/> und <Hoverable text="Fotograf" gifsrc="/assets/hover/pingu.gif" color="#de6b28" alt="Fotograf gif"/> aus Bern</p>
+            <p>Ihr <span class="importantword">Video Creator</span> und <span class="importantword">Fotograf</span> aus Bern</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
             <p>Mein professionelles Arbeiten bleibt auch unter <Hoverable text="Druck" gifsrc="/assets/hover/fine.gif" color="#de6b28" alt="gif unter druck"/> stabil</p>
@@ -82,6 +82,10 @@
 
 
 <style>
+    .importantword {
+        color: #de6b28;
+        font-weight: bold;
+    }
 
     /* Title resizing */
     #title {
@@ -91,8 +95,7 @@
         top: 30%;
         user-select: none;
         cursor: pointer;
-
-        font-family: 'Azonix', sans-serif;
+        font-family: sans-serif;
         font-size: 8rem;
         font-weight: 600;
         transition: all linear 1s;

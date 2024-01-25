@@ -32,8 +32,17 @@
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
             <p>Telefon: +41 77 498 87 23<br>Email: info@linosteffen.ch</p>
         </Intersector>
+        <br>
+        <br>
+        <br>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Ich erstelle kreative Werbevideos, Filme oder Fotos<br>für einzigartige Momente</p>
+            <p>Ich erstelle kreative Werbevideos, Filme oder Fotos<br>für einzigartige <span class="importantword">Momente</span></p>
+        </Intersector>
+        <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
+            <p><span class="importantword">Motivation</span> und <span class="importantword">Kreativität</span> stehen im Mittelpunkt meiner Arbeit</p>
+        </Intersector>
+        <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
+            <p>Offene und transparente <span class="importantword">Kommunikation</span> ist der Schlüssel zum Erfolg</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
             <p>Bei Interesse meldet euch direkt per Mail<br>Ich freue mich auf eine gute Zusammenarbeit</p>
@@ -48,6 +57,11 @@
 <Timeline timelineconfiguration={timelineConfig}/>
 
 <style>
+    .importantword {
+        color: #de6b28;
+        font-weight: bold;
+    }
+
     .main-container-outer {
         width: 100%;
         z-index: 4;
