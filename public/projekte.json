@@ -1,5 +1,13 @@
 [
     {
+        "title": "BMW 318is",
+        "date": "2023 - 2024",
+        "subtitle": "Restauration eines seltenen BMW E36 318is aus dem Jahr 1992",
+        "redirect": "?Bmw318is",
+        "image": "/assets/projekte/bmw318is.jpg",
+        "alt": "Bmw 318is image"
+    },
+    {
         "title": "Die Wette",
         "date": "2022 - 2023",
         "subtitle": "In dem Kurzfilm 'Die Wette' geht es darum, ob wir wirklich ständig an unserem Handy kleben müssen, vor allem die Jugendlichen. Die Geschichte zeigt, was wir alles verpassen können, wenn wir uns nur noch auf den Bildschirm konzentrieren.",
@@ -32,3 +40,5 @@
         "alt": "Aare Roadtrip image"
     }
 ]
+
+

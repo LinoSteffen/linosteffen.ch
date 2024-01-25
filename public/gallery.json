@@ -1,13 +1,17 @@
 [
     {
-        "title": "Portraits",
+        "title": "Menschen",
         "content": [
             {
-              "src": "/assets/gallery/portrait/IMG_0011.jpg",
+              "src": "/assets/gallery/human/IMG_0011.jpg",
               "iframe": false
             },
             {
-              "src": "/assets/gallery/portrait/A7309039.jpg",
+              "src": "/assets/gallery/human/A7304974.jpg",
+              "iframe": false
+            },
+            {
+              "src": "/assets/gallery/human/A7309039.jpg",
               "iframe": false
             }
         ]
@@ -20,7 +24,7 @@
               "iframe": false
             },
             {
-              "src": "/assets/gallery/car/A7309079.jpg",
+              "src": "/assets/gallery/car/TOYOTA_SUPRA_YELLOW_04.jpg",
               "iframe": false
             },
             {
@@ -28,7 +32,7 @@
               "iframe": false
             },
             {
-              "src": "/assets/gallery/car/IMG_8211.jpg",
+              "src": "/assets/gallery/car/OPEL_ASCONA_ORANGE_01.jpg",
               "iframe": false
             }
         ]
@@ -37,7 +41,7 @@
         "title": "Flugzeuge",
         "content": [
             {
-              "src": "/assets/gallery/plane/A7308657.jpg",
+              "src": "/assets/gallery/plane/A7305633.jpg",
               "iframe": false
             },
             {
@@ -49,7 +53,7 @@
               "iframe": false
             },
             {
-              "src": "/assets/gallery/plane/A7303515.jpg",
+              "src": "/assets/gallery/plane/A7305810.jpg",
               "iframe": false
             }
         ]
@@ -103,6 +107,10 @@
               "iframe": false
             },
             {
+              "src": "/assets/gallery/drone/DJI_0026.jpg",
+              "iframe": false
+            },
+            {
               "src": "/assets/gallery/drone/DJI_0029.jpg",
               "iframe": false
             }
@@ -124,7 +132,7 @@
               "iframe": false
             },
             {
-              "src": "/assets/gallery/animal/A7309018.jpg",
+              "src": "/assets/gallery/animal/A7304098.jpg",
               "iframe": false
             }
         ]
@@ -182,6 +190,10 @@
     {
       "title": "Indoor",
       "content": [
+          {
+            "src": "/assets/gallery/indor/A7302008.jpg",
+            "iframe": false
+          },
           {
             "src": "/assets/gallery/indor/IMG_3134.jpg",
             "iframe": false

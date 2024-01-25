@@ -34,6 +34,9 @@
         <img class="toimg" src="/assets/projekte/aareroadtrip/art4.jpg" alt="Bild Aareroadtrip 4">
         <img class="toimg" src="/assets/projekte/aareroadtrip/art5.jpg" alt="Bild Aareroadtrip 5">
     </div>
+    <div class="sponsoren">	
+        <a href="https://linosteffen.ch/" target="_blank"><img class="sponsoren-img-ls" src="LSwhite.png" alt="Logo domaine de lenfer"></a>
+    </div>
 </div>
 <style>
 </style>

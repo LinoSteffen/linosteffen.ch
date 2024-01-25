@@ -12,6 +12,7 @@
     import Domaindelenfer from './pages/projects/Domaindelenfer.svelte';
     import Aareroadtrip from './pages/projects/Aareroadtrip.svelte';
     import Deadinthewater from './pages/projects/Deadinthewater.svelte';
+	import Bmw318is from './pages/projects/Bmw318is.svelte';
 
 	const urlParams = new URLSearchParams(window.location.search);	
 	const firstParam = urlParams.entries().next().value;	
@@ -75,6 +76,8 @@
 			return Aareroadtrip;
 			case "Deadinthewater":
 			return Deadinthewater;
+			case "Bmw318is":
+			return Bmw318is;
 			default:
 			return Home;
 		}

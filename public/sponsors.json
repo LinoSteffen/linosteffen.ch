@@ -70,6 +70,12 @@
         "alt": "Localnet Logo",
         "lnk": "https://www.localnet.ch/",
         "invert": 0
+    },
+    {
+        "src": "/assets/sponsors/spinup.png",
+        "alt": "SpinUp Logo",
+        "lnk": "https://www.spin-up.ch/",
+        "invert": 1
     }
 ]
   

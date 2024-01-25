@@ -90,7 +90,7 @@
 
         opacity: 0;
         transition: all ease 1s;
-        font-family: 'Raleway', sans-serif;
+        font-family: sans-serif;
     }
 
     .project-img {
@@ -109,12 +109,12 @@
 
     .project-date {
         text-align: center;
-        font-family: 'Raleway', sans-serif;
+        font-family: sans-serif;
     }
 
     .project-subtitle {
         text-align: center;
-        font-family: 'Raleway', sans-serif;
+        font-family: sans-serif;
     }
 </style>
   

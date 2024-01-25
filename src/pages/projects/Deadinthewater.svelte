@@ -34,6 +34,9 @@
         <img class="toimg" src="/assets/projekte/deadinthewater/ditw4.jpg" alt="Bild deadinthewater 4">
         <img class="toimg" src="/assets/projekte/deadinthewater/ditw5.jpg" alt="Bild deadinthewater 4">
     </div>
+    <div class="sponsoren">	
+        <a href="https://linosteffen.ch/" target="_blank"><img class="sponsoren-img-ls" src="LSwhite.png" alt="Logo domaine de lenfer"></a>
+    </div>
 </div>
 <style>
 </style>
