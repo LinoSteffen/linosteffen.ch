@@ -70,7 +70,7 @@ p {
 }
 
 .big {
-    color: #5f6064;
+    color: #707070;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -93,8 +93,7 @@ p {
 }
 
 .small {
-    color: #2e3136;
-
+    color: white;
     position: absolute;
     left: 0;
     right: 0;
