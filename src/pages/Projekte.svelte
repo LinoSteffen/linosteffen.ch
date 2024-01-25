@@ -30,6 +30,9 @@
             </div>
             <h2 class="project-date">{section.date}</h2>
             <p class="project-subtitle">{section.subtitle}</p>
+            <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
+                <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">
+            </Intersector>
         </div>
     </Intersector>
 {/each}
@@ -60,7 +63,17 @@
     }
 
     .project-inner > * {
-        width: 80%;
+        width: 90%;
+    }
+    @media screen and (min-width: 700px) {
+        .project-inner > * {
+            width: 80%;
+        }
+    }
+    @media screen and (min-width: 1700px) {
+        .project-inner > * {
+            width: 60%;
+        }
     }
 
     .project-img-container {

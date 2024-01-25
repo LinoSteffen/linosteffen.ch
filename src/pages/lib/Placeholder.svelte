@@ -45,7 +45,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: #36393e;
+        background-color: #04001b;
 
         z-index: 1000;
     }

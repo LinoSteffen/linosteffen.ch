@@ -39,7 +39,7 @@
             <p>Bei Interesse meldet euch direkt per Mail<br>Ich freue mich auf eine gute Zusammenarbeit</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <img class="ls-icon" src=/icon.png width="25" alt="Lino Steffen Icon">
+            <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">
         </Intersector>
     </div>    
 </div>
@@ -63,10 +63,6 @@
 
     .main-container-outer p {
         margin-top: 5vh;
-    }
-
-    .main-container-outer .ls-icon {
-        filter: invert(1);
     }
 
     .main-container-inner {

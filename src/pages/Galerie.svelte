@@ -128,6 +128,13 @@
         margin: 20px;
     }
 
+    @media screen and (min-width: 700px) {
+        .gallery-inner {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+
     .iframe-container {
         margin-bottom: 50px;
         position: relative;

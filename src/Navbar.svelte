@@ -19,8 +19,8 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<img class="nav-ls" src="./icon.png" width="40" height="40" alt="Lino Steffen Logo" on:click={() => setActivePage('Home')}/>
-<div class="nav-bar"></div>
+<img class="nav-ls" src="./LSwhite.png" width="50" height="50" alt="Lino Steffen Logo" on:click={() => setActivePage('Home')}/>
+
 <input type="checkbox" id="active" bind:checked={navbarStateStore.NavbarState}>
 <label for="active" class="nav-btn"><span></span></label>
 <label for="active" class="nav-close"></label>
@@ -41,38 +41,26 @@
         </div>
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <div id="About" class="nav-item" on:click={() => setActivePage('About')}>
-            About
+            Über mich
         </div>
     </div>
 </div>
 
 <style>
-    /* Navigation Bar */
-    .nav-bar {
-        z-index: 10;
-        position: fixed;
-        top: 0;
-        height: 70px;
-        width: 100%;
-        background-color: #16181a;
-        opacity: 0;
-        transition: all ease 1s;
-    }
 
-    /* Lino Steffen Button */
+
+    /* Lino Steffen Logo */
     .nav-ls {
         z-index: 11;
         position: fixed;
         left: 20px;
-        top: 20px;
-        background-color: white;
-        border-radius: 12px;
+        top: 17px;
         cursor: pointer;
         user-select: none;
     }
 
     .nav-ls:hover {
-        animation: shake 0.8s linear infinite;
+        animation: shake 1.1s linear infinite;
     }
 
     /* Toggle Button */
@@ -91,7 +79,7 @@
         position: fixed;
         z-index: 11;
         right: 20px;
-        top: 8px;
+        top: 11px;
         height: 60px;
         width: 60px;
         cursor: pointer;
@@ -122,11 +110,11 @@
     }
     #active:checked + .nav-btn:before {
         transform: rotate(45deg);
-        border-color: black;
+        border-color: white;
     }
     #active:checked + .nav-btn:after {
         transform: rotate(-45deg);
-        border-color: black;
+        border-color: white;
     }
 
     .nav-btn:hover {
@@ -138,10 +126,10 @@
         z-index: 10;
         position: fixed;
         top: 0;
-        right: -30%;
+        right: -100%;
         height: 100vh;
-        width: 30%;
-        background: white;
+        width: 100%;
+        background: #000A14;
         transition: all ease-in-out 1s;
     }
 
@@ -158,8 +146,8 @@
     }
 
     .wrapper .nav-main .nav-item {
-        color: black;
-        font-size: 40px;
+        color: white;
+        font-size: 30px;
         font-weight: 800;
         font-family: 'Raleway', sans-serif;
         cursor: pointer;
@@ -172,22 +160,32 @@
     }
 
     .wrapper .nav-main .nav-item:hover {
-        text-shadow: 5px 10px 15px rgba(0,0,0,0.5);
+        text-shadow: 5px 10px 15px rgba(0,0,0,0.9);
     }
 
     #active:checked ~ .wrapper{
         right:0;
     }
 
-    @media (max-width: 700px) {
+    @media (min-width: 750px) {
         .wrapper{
-            right: -100%;
-            width: 100%;
-        }
-        .nav-bar {
-            opacity: 1;
+            right: -40%;
+            width: 40%;
         }
     }
+    @media (min-width: 1400px) {
+        .wrapper{
+            right: -30%;
+            width: 30%;
+        }
+    }
+    @media (min-width: 1950px) {
+        .wrapper{
+            right: -15%;
+            width: 15%;
+        }
+    }
+
 
     @keyframes shake {
         0%, 100% {

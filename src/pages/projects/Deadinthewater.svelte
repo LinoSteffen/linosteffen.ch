@@ -8,12 +8,13 @@
         </div>
     </div>
     <div class="informationdiv">
-        <p class="utext">Produziert von</p>
+        <p class="uebertext">Produziert von</p>
         <p class="text">Lino Steffen</p>
-        <p class="utext">Drehort</p>
+        <p class="uebertext">Drehort</p>
         <p class="text">Greyezersee</p>
-        <p class="utext">Ver&ouml;ffentlichen</p>
+        <p class="uebertext">Ver&ouml;ffentlichen</p>
         <p class="text">Oktober 2022</p>
+        <p class="description">Lorem imposum igendiw öppis</p>
     </div>
     <div class="ytdiv">
         <div class="responsive-video">

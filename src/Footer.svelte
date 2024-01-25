@@ -4,19 +4,17 @@
 
 <footer class="footer">
     <div class="socials">
+        <a href="https://ch.linkedin.com/in/lino-steffen-2937631bb" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.youtube.com/@linosteffen" target="_blank"><i class="fab fa-youtube"></i></a>
         <a href="https://www.instagram.com/lino.steffen/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://ch.linkedin.com/in/lino-steffen-2937631bb" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.tiktok.com/@lino.steffen" target="_blank"><i class="fab fa-tiktok"></i></a>
         <a href="https://www.facebook.com/lino.steffen.33" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.tiktok.com/@lino.steffen" target="_blank"><i class="fab fa-tiktok"></i></a>
         <a href="https://github.com/LinoSteffen" target="_blank"><i class="fab fa-github"></i></a>
     </div>
     <!-- svelte-ignore a11y-missing-attribute -->
     <div class="links">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <div on:click={() => setActivePage('Home')}>Home</div>
-        <!-- svelte-ignore a11y-click-events-have-key-events -->
-        <div on:click={() => setActivePage('About')}>About</div>
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <div on:click={() => setActivePage('Impressum')}>Impressum</div>
     </div>
@@ -30,8 +28,8 @@
         min-height: 20vh;
         bottom: 0;
         width: 100%;
-        background-color: #16181a;
-        color:white;
+        background-color: #000A14;
+        color: white;
     }
 
     .footer .socials {
@@ -63,14 +61,16 @@
     }
 
     .footer .links {
+        font-family: sans-serif;
         padding: 0;
-        list-style:none;
-        text-align:center;
-        font-size:18px;
-        line-height:1.6;
-        margin-bottom:20px;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
         cursor: pointer;
-    }
+}
+
 
     .footer .links > div {
         padding:0 10px;

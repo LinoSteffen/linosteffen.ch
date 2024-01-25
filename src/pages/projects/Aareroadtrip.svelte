@@ -8,12 +8,13 @@
         </div>
     </div>
     <div class="informationdiv">
-        <p class="utext">Produziert von</p>
+        <p class="uebertext">Produziert von</p>
         <p class="text">Mateo, Michael und Lino Steffen</p>
-        <p class="utext">Drehdauer</p>
+        <p class="uebertext">Drehdauer</p>
         <p class="text">4 Tage (Oktober 2021)</p>
-        <p class="utext">Ver&ouml;ffentlichen</p>
+        <p class="uebertext">Ver&ouml;ffentlichen</p>
         <p class="text">September 2021</p>
+        <p class="description">Lorem imposum igendiw öppis</p>
     </div>
     <div class="ytdiv">
         <div class="responsive-video">

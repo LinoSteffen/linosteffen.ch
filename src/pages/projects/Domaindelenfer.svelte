@@ -8,14 +8,15 @@
         </div>
     </div>
     <div class="informationdiv">
-        <p class="utext">Produziert von</p>
+        <p class="uebertext">Produziert von</p>
         <p class="text">Lino Steffen</p>
-        <p class="utext">Drehort</p>
+        <p class="uebertext">Drehort</p>
         <p class="text">Salgesch</p>
-        <p class="utext">Drehdauer</p>
+        <p class="uebertext">Drehdauer</p>
         <p class="text">2020 - 2022</p>
-        <p class="utext">Film&uuml;bergabe</p>
+        <p class="uebertext">Film&uuml;bergabe</p>
         <p class="text">Juni 2022</p>
+        <p class="description">Lorem imposum igendiw öppis</p>
     </div>
     <div class="ytdiv">
         <div class="responsive-video">

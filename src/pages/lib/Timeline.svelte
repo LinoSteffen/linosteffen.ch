@@ -21,7 +21,7 @@
         position: relative;
         padding: 1rem;
         margin: 0 auto;
-        max-width: 1300px;
+        max-width: 1000px;
     }
     .timeline:before {
         content: "";
@@ -78,9 +78,9 @@
     }
     /* Befor element resembles the triangle (pointer) attached to the item */
 
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 900px) {
         .timeline-item {
-            width: 44%;
+            width: 42%;
             margin: 1rem;
         }
         /* Selects every 2nd element */
@@ -129,6 +129,6 @@
         margin: 0;
         margin-top: 1rem;
         font-family: "Raleway", sans-serif;
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 </style>
