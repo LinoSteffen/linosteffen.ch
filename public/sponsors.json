@@ -14,7 +14,7 @@
     {
         "src": "/assets/sponsors/kircheburgdorf.png",
         "alt": "Reformierte Kirche Burgdorf Logo",
-        "lnk": "https://www.ref-kirche-burgdorf.ch/home/",
+        "lnk": "https://www.ref-kirche-burgdorf.ch/",
         "invert": 0
     },
     {
@@ -60,6 +60,12 @@
         "invert": 0
     },
     {
+        "src": "/assets/sponsors/zentrum_schlossmatt_logo.png",
+        "alt": "Zentrum Schlossmatt Logo",
+        "lnk": "https://www.zsburgdorf.ch/",
+        "invert": 0
+    },
+    {
         "src": "/assets/sponsors/planetary.jpg",
         "alt": "Planetary Logo",
         "lnk": "https://www.planetarygroup.ch/",
@@ -78,4 +84,3 @@
         "invert": 1
     }
 ]
-  

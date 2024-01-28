@@ -24,7 +24,7 @@
     <div class="ytdiv">
         <div class="responsive-video">
             <iframe width="700" height="394"
-                src="https://www.youtube.com/embed/_vWOYaY1P0Q?rel=0"
+                src="https://www.youtube.com/embed/h-3M5EYgFPs?rel=0"
                 title="Youtube Link Video Bmw 318is" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -43,13 +43,22 @@
             </iframe>
         </div>
     </div>
+    <hr>
+    <div class="gallery">
+        <img class="toimg" src="/assets/projekte/bmw318is/spiegel.jpg" alt="Bild bmw318is restauration 1">
+        <img class="toimg" src="/assets/projekte/bmw318is/dachhimmel.jpg" alt="Bild bmw318is restauration 2">
+        <img class="toimg" src="/assets/projekte/bmw318is/zierleiste.jpg" alt="Bild bmw318is restauration 3">
+        <img class="toimg" src="/assets/projekte/bmw318is/heckklappe.jpg" alt="Bild bmw318is restauration 4">
+        <img class="toimg" src="/assets/projekte/bmw318is/sitz.jpg" alt="Bild bmw318is restauration 5">
+    </div>
+    <hr>
     <div class="gallery">
         <img class="toimg" src="/assets/projekte/bmw318is/BMW318is_carporn_image_1.jpg" alt="Bild bmw318is 1">
         <img class="toimg" src="/assets/projekte/bmw318is/BMW318is_carporn_image_2.jpg" alt="Bild bmw318is 2">
         <img class="toimg" src="/assets/projekte/bmw318is/BMW318is_carporn_image_3.jpg" alt="Bild bmw318is 3">
     </div>
     <div class="sponsoren">	
-        <a href="https://linosteffen.ch/" target="_blank"><img class="sponsoren-img-ls" src="LSwhite.png" alt="Logo domaine de lenfer"></a>
+        <a href="https://linosteffen.ch/" target="_blank"><img class="sponsoren-img-ls" src="LSwhite.png" alt="Logo LS"></a>
     </div>
 </div>
 <style>

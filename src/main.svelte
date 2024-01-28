@@ -13,6 +13,7 @@
     import Aareroadtrip from './pages/projects/Aareroadtrip.svelte';
     import Deadinthewater from './pages/projects/Deadinthewater.svelte';
 	import Bmw318is from './pages/projects/Bmw318is.svelte';
+	import Weihnachtsgottesdienst from './pages/projects/Weihnachtsgottesdienst.svelte';
 
 	const urlParams = new URLSearchParams(window.location.search);	
 	const firstParam = urlParams.entries().next().value;	
@@ -78,6 +79,8 @@
 			return Deadinthewater;
 			case "Bmw318is":
 			return Bmw318is;
+			case "Weihnachtsgottesdienst":
+			return Weihnachtsgottesdienst;
 			default:
 			return Home;
 		}
