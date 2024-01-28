@@ -38,7 +38,7 @@
         z-index: -500;
         height: 120px;
         width: 120px;
-        background-image: linear-gradient(to right, white, blue);
+        background-image: linear-gradient(to right, #FD5901, #005F60);
         border-radius: 20px;
         filter: blur(50px);
 

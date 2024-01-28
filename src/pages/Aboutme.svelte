@@ -58,7 +58,7 @@
 
 <style>
     .importantword {
-        color: #de6b28;
+        color: #FD5901;
         font-weight: bold;
     }
 

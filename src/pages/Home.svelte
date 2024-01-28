@@ -51,7 +51,7 @@
             <p>Ihr <span class="importantword">Video Creator</span> und <span class="importantword">Fotograf</span> aus Bern</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Mein professionelles Arbeiten bleibt auch unter <Hoverable text="Druck" gifsrc="/assets/hover/fine.gif" color="#de6b28" alt="gif unter druck"/> stabil</p>
+            <p>Mein professionelles Arbeiten bleibt auch unter <Hoverable text="Druck" gifsrc="/assets/hover/fine.gif" color="#FD5901" alt="gif unter druck"/> stabil</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
             <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">
@@ -83,7 +83,7 @@
 
 <style>
     .importantword {
-        color: #de6b28;
+        color: #FD5901;
         font-weight: bold;
     }
 
