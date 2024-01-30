@@ -1,7 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	background-image: linear-gradient(#04001b, #06133d);
+	background-image: linear-gradient(black, #04001b, #06133d);
 	color: white;
 	overflow-x: hidden
 }

@@ -210,6 +210,11 @@
 
     .main-container-outer .sponsor-list img {
         width: 150px;
+        transition: all .2s ease-in-out;
+    }
+
+    .main-container-outer .sponsor-list img:hover {
+        transform: scale(1.15);
     }
 
 </style>
