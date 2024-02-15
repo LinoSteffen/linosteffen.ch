@@ -144,6 +144,7 @@
         pointer-events: none;
         filter: brightness(70%);
         z-index: 3;
+        filter: grayscale(55%);
     }
 
     #main-interface-wave-top {
