@@ -16,7 +16,7 @@
         <p class="text">2020 - 2022</p>
         <p class="uebertext">Film&uuml;bergabe</p>
         <p class="text">Juni 2022</p>
-        <p class="description">Lorem imposum igendiw öppis</p>
+        <p class="description">Vom Beginn der Rebe bis zur Abfüllung des Weins: Eine Dokumentation für einen Weinbauern aus dem Wallis. </p>
     </div>
     <div class="ytdiv">
         <div class="responsive-video">

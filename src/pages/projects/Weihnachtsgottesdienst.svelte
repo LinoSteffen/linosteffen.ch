@@ -2,7 +2,7 @@
 </script>
 <div>
     <div class="titeldiv">
-        <img class="titleimg" src="/assets/projekte/weihnachtsgottesdienst/DJI_0048.jpg" alt="Titelbild bmw 318is">
+        <img class="titleimg" src="/assets/projekte/weihnachtsgottesdienst/DJI_0048.jpg" alt="Titelbild Weihnachtsgottesdienst">
         <div class="titeltextdiv">
             <h1 class="titeltext">Weihnachtsgottesdienst</h1>
         </div>

@@ -12,9 +12,9 @@
         <p class="text">Lino Steffen</p>
         <p class="uebertext">Drehort</p>
         <p class="text">Greyezersee</p>
-        <p class="uebertext">Ver&ouml;ffentlichen</p>
+        <p class="uebertext">Ver&ouml;ffentlichung</p>
         <p class="text">Oktober 2022</p>
-        <p class="description">Lorem imposum igendiw öppis</p>
+        <p class="description">Für dieses Projekt haben wir zwei Kindermodellschiffe, die unser Vater gebaut hat, künstlich in einem See versenkt. Daraus entstand ein äusserst improvisierter Film. Eine weitere Episode ist bereits in Planung.</p>
     </div>
     <div class="ytdiv">
         <div class="responsive-video">

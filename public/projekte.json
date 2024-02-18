@@ -1,11 +1,27 @@
 [
     {
+        "title": "10 Jahre Spin-Up",
+        "date": "Februar 2024",
+        "subtitle": "Zum 10-jährigen Jubiläum vom Poledance Studio Spin-Up, habe ich ein besonderes Video erstellt, das die inspirierenden Momente der Feier festhält.",
+        "redirect": "?spinup10years",
+        "image": "/assets/projekte/spinup10years.jpg",
+        "alt": "10 Jahre Spin-Up image"
+    },
+    {
         "title": "BMW 318is",
         "date": "2023 - 2024",
         "subtitle": "Restauration eines seltenen BMW E36 318is aus dem Jahr 1992",
         "redirect": "?Bmw318is",
         "image": "/assets/projekte/bmw318is.jpg",
         "alt": "Bmw 318is image"
+    },
+    {
+        "title": "Kitoko Podcast at Riffelsee",
+        "date": "November 2023",
+        "subtitle": "Dieser Podcast ist einzigartig in der Schweiz. \n Nicht nur das Thema ist faszinierend, sondern auch die atemberaubende Kulisse im Hintergrund.",
+        "redirect": "?kitokopodcastzermatt",
+        "image": "/assets/projekte/kitokopodcastzermatt.jpg",
+        "alt": "kitoko podcast riffelsee image"
     },
     {
         "title": "LoSt",
@@ -56,5 +72,3 @@
         "alt": "Aare Roadtrip image"
     }
 ]
-
-

@@ -12,9 +12,9 @@
         <p class="text">Mateo, Michael und Lino Steffen</p>
         <p class="uebertext">Drehdauer</p>
         <p class="text">4 Tage (Oktober 2021)</p>
-        <p class="uebertext">Ver&ouml;ffentlichen</p>
+        <p class="uebertext">Ver&ouml;ffentlichung</p>
         <p class="text">September 2021</p>
-        <p class="description">Lorem imposum igendiw öppis</p>
+        <p class="description">Wir haben die Aare von ihrer Ursprungsquelle am Getschertor bis zu ihrer Mündung in den Rhein verfolgt. Sie entspringt beim Oberaarsee und fliesst durch die Aareschlucht, dann in den Brienzer und Thuner See. Weiter führt ihr Weg durch Bern und Solothurn, bis sie kurz vor Koblenz in den Rhein mündet. Diese gesamte Route haben wir dokumentiert und aufgezeichnet.</p>
     </div>
     <div class="ytdiv">
         <div class="responsive-video">

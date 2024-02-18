@@ -64,7 +64,7 @@
             <h2>Haftungsausschluss</h2>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Obwohl wir uns bemühen, die Richtigkeit und Aktualität der auf dieser Website bereitgestellten Informationen sicherzustellen, übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. 
+            <p>Obwohl wir uns bemühen, die Richtigkeit und Aktualität der auf dieser Website bereitgestellten Informationen sicherzustellen, übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich. 
             </p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">

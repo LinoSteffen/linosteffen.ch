@@ -174,8 +174,25 @@
     transform: scale(1.15);
 }
 
+.sponsoren-img-spinup {
+    width: 120px;
+    padding: 30px;
+    filter: invert(100%); 
+    transition: all .3s ease-in-out;
+}
+.sponsoren-img-spinup:hover {
+    transform: scale(1.15);
+}
 
-
+.sponsoren-img-kitoko {
+    width: 120px;
+    padding: 30px;
+    filter: invert(100%); 
+    transition: all .3s ease-in-out;
+}
+.sponsoren-img-kitoko:hover {
+    transform: scale(1.15);
+}
 
 
 .gallery {

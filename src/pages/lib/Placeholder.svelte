@@ -22,7 +22,6 @@
       0%,50%,100% {
           filter: brightness(120%);
           border-radius: 40px;
-          background-color: rgba(255,255,255,0.03);
           transform: rotate(-40deg);
       }
       25%,75% {
@@ -44,7 +43,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: #13181d;
+      background-image: linear-gradient(black, #04001b, #06133d);
 
       z-index: 1000;
   }
