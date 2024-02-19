@@ -217,9 +217,27 @@
     margin-bottom: 50px;
     padding-left: 5px;
     padding-right: 5px;
+    transition: .4s;
+}
+.toimg:hover {
+    transform: scale(1.06);
 }
 @media (max-width: 550px) {
     .toimg {
+    height: auto;
+    width: 100%;
+    }
+}
+
+.videoexternimage {
+    width: 90%;
+    transition: .4s;
+}
+.videoexternimage:hover {
+    transform: scale(1.08);
+}
+@media (max-width: 550px) {
+    .videoexternimage {
     height: auto;
     width: 100%;
     }

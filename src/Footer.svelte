@@ -18,7 +18,7 @@
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <div on:click={() => setActivePage('Impressum')}>Impressum</div>
     </div>
-    <p class="copyright">Lino Steffen © 2023</p>
+    <p class="copyright">Lino Steffen © 2024</p>
 </footer>
 
 <style>
