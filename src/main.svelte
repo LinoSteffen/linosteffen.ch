@@ -7,7 +7,7 @@
 	import Galerie from './pages/Galerie.svelte';
 	import About from './pages/Aboutme.svelte';
 	import Impressum from './pages/Impressum.svelte';
-    import Trailer from './pages/lib/Trailer.svelte';
+    //import Trailer from './pages/lib/Trailer.svelte';
     import Placeholder from './pages/lib/Placeholder.svelte';
     import Domaindelenfer from './pages/projects/Domaindelenfer.svelte';
     import Aareroadtrip from './pages/projects/Aareroadtrip.svelte';
@@ -105,7 +105,7 @@
 	});
 </script>
 
-<Trailer opacity={trailerOpacity} />
+<!-- <Trailer opacity={trailerOpacity} /> -->
 
 <Navbar setActivePage="{setActivePage}" navbarStateStore="{navbarStore}"/>
   
