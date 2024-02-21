@@ -20,7 +20,7 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <img class="nav-ls" src="./LSwhite.png" width="50" height="50" alt="Lino Steffen Logo" on:click={() => setActivePage('Home')}/>
-
+<div class="nav-bar"></div>
 <input type="checkbox" id="active" bind:checked={navbarStateStore.NavbarState}>
 <label for="active" class="nav-btn"><span></span></label>
 <label for="active" class="nav-close"></label>
@@ -47,9 +47,19 @@
 </div>
 
 <style>
+    /* Navigation Bar */
+    .nav-bar {
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        height: 80px;
+        width: 100%;
+        background-color: #000A14;
+        opacity: 0;
+        transition: all ease 1s;
+    }
 
-
-    /* Lino Steffen Logo */
+    /* Lino Steffen Button */
     .nav-ls {
         z-index: 11;
         position: fixed;
@@ -185,6 +195,11 @@
             width: 15%;
         }
     }
+    @media (max-width: 700px){
+        .nav-bar {
+            opacity: 1;
+        }
+    } 
 
 
     @keyframes shake {

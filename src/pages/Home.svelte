@@ -48,10 +48,13 @@
             <p>Ich bin Lino Steffen</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Ihr <span class="importantword">Video Creator</span> und <span class="importantword">Fotograf</span> aus Bern</p>
+            <p>Als <Hoverable text="Video Creator" gifsrc="/assets/hover/videocreator.gif" color="#FD5901" alt="gif Video Creator"/> und <Hoverable text="Fotograf" gifsrc="/assets/hover/photography.gif" color="#FD5901" alt="gif Fotograf"/> aus Bern verwandle ich deine Ideen in beeindruckende Bilder.</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Mein professionelles Arbeiten bleibt auch unter <Hoverable text="Druck" gifsrc="/assets/hover/fine.gif" color="#FD5901" alt="gif unter druck"/> stabil</p>
+            <p>Ob ein professionelles Video oder hochwertige Fotos, ich bin dein kreativer und zuverlässiger <Hoverable text="Partner" gifsrc="/assets/hover/partner.gif" color="#FD5901" alt="gif Partner"/>.</p>
+        </Intersector>
+        <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
+            <p><Hoverable text="Kontaktiere" gifsrc="/assets/hover/telephone.gif" color="#FD5901" alt="gif Telephone"/> mich und lasse uns gemeinsam deine <Hoverable text="Geschichte" gifsrc="/assets/hover/history.gif" color="#FD5901" alt="gif Geschichte"/> erzählen.</p>         
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
             <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">

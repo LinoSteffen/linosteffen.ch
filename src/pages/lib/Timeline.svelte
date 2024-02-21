@@ -47,7 +47,7 @@
 
     .timeline-item {
         border: 2px solid;
-        border-image: linear-gradient(to right, rgb(135, 145, 235) 0%, white 100%);
+        border-image: linear-gradient(to right, #FD5901, white 100%);
         border-image-slice: 1;
 
         position: relative;
@@ -87,7 +87,7 @@
         .timeline-item:nth-of-type(2n) {
             float: right;
             margin: 1rem;
-            border-image: linear-gradient(to right, white 0%, rgb(135, 145, 235) 100%);
+            border-image: linear-gradient(to right, white 0%, #FD5901);
             border-image-slice: 1;
         }
         /* Befor element resembles the triangle (pointer) attached to the item */
