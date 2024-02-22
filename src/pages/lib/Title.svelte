@@ -63,21 +63,22 @@
   .title {
     text-align: center;
     color: #f5f5f5;
-    text-shadow: 1px 1px 1px black,
-        1px 2px 1px black,
-        1px 3px 1px black,
-        1px 4px 1px black,
-        1px 5px 1px black,
-        1px 6px 1px black,
-        1px 7px 1px black,
-        1px 8px 1px black,
-        1px 9px 1px black,
-        1px 10px 1px black,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
-  }
+    text-shadow: 
+        0.75px 0.75px 0.75px black,
+        0.75px 1.5px 0.75px black,
+        0.75px 2.25px 0.75px black,
+        0.75px 3px 0.75px black,
+        0.75px 3.75px 0.75px black,
+        0.75px 4.5px 0.75px black,
+        0.75px 5.25px 0.75px black,
+        0.75px 6px 0.75px black,
+        0.75px 6.75px 0.75px black,
+        0.75px 7.5px 0.75px black,
+    0.75px 13.5px 2.25px rgba(16,16,16,0.2),
+    0.75px 16.5px 3.75px rgba(16,16,16,0.1),
+    0.75px 18.75px 12.75px rgba(16,16,16,0.1),
+    0.75px 22.5px 22.5px rgba(16,16,16,0.2);
+}
 
   @keyframes animateChar {
     30% {

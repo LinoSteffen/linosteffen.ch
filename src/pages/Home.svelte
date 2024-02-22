@@ -104,6 +104,12 @@
         transition: all linear 1s;
     }
 
+    @media (max-width: 700px) {
+        #title, .main-interface-container, .main-container-inner, .main-container-outer {
+            margin-top: 80px;
+    }
+}
+
     @media only screen and (min-width: 1800px) {
         #title {
             font-size: 10rem;
