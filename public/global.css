@@ -3,14 +3,8 @@ body {
 	margin: 0;
 	background-image: linear-gradient(black, #04001b, #06133d);
 	color: white;
-	overflow-x: hidden;
+	overflow-x: hidden
 }
-/*@media (max-width: 700px) {
-	.main-interface-container{
-		margin-top: 400px;
-	}
-}
-*/
 
 /* For Chrome, Edge, and Safari */
 ::-webkit-scrollbar {
