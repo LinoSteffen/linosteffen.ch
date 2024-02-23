@@ -105,7 +105,7 @@
     }
 
     @media (max-width: 700px) {
-        #title, .main-interface-container, .main-container-inner, .main-container-outer {
+        #title, .main-interface-container, .main-container-inner {
             margin-top: 80px;
     }
 }
@@ -221,6 +221,11 @@
     .main-container-outer .sponsor-list img {
         width: 150px;
         transition: all .2s ease-in-out;
+    }
+    @media (max-width: 700px) {
+        .main-container-outer .sponsor-list img {
+            width: 110px;
+        }
     }
 
     .main-container-outer .sponsor-list img:hover {

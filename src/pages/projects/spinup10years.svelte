@@ -14,7 +14,7 @@
         <p class="text">Spin-Up GmbH</p>
         <p class="uebertext">Ver&ouml;ffentlichung</p>
         <p class="text">Februar 2024</p>
-        <p class="description">Anlässlich des 10-jährigen Jubiläums des Poledance Studios Spin-Up wurde mir die Ehre zuteil, den gesamten Abend mit meiner Kamera festzuhalten. Jeder einzelne fantastische Moment wurde eingefangen und zu einem beeindruckenden Erinnerungsvideo verarbeitet.</p>
+        <p class="description">Anlässlich des 10-jährigen Jubiläums des Poledance Studios Spin-Up wurde mir die Ehre zugeteilt, den gesamten Abend mit meiner Kamera festzuhalten. Jeder einzelne fantastische Moment wurde eingefangen und zu einem beeindruckenden Erinnerungsvideo verarbeitet.</p>
     </div>
     <div class="ytdiv">
         <a href="https://www.spin-up.ch/10-years" target="_blank"><img class="videoexternimage" src="/assets/projekte/spinup/video-preview.jpg" alt="Bild Video preview"></a>
