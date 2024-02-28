@@ -26,14 +26,14 @@
 
     blockquote p {
         font-family: 'Raleway', sans-serif;
-        background: linear-gradient(45deg, #FD5901, #005F60);
+        background: linear-gradient(45deg, #FD5901, #212121);
         background-size: 200% 200%;
         background-clip: text;
         color: transparent;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
-        animation: gradient-animation 3s linear infinite;
+        animation: gradient-animation 4s linear infinite;
     }
 
 
