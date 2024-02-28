@@ -1,7 +1,7 @@
 [
     {
-        "src": "/assets/sponsors/kitiko.png",
-        "alt": "Kitiko People Logo",
+        "src": "/assets/sponsors/kitoko.png",
+        "alt": "kitoko People Logo",
         "lnk": "https://kitoko-people.ch/",
         "invert": 1
     },
@@ -14,7 +14,7 @@
     {
         "src": "/assets/sponsors/kircheburgdorf.png",
         "alt": "Reformierte Kirche Burgdorf Logo",
-        "lnk": "https://www.ref-kirche-burgdorf.ch/home/",
+        "lnk": "https://www.ref-kirche-burgdorf.ch/",
         "invert": 0
     },
     {
@@ -60,6 +60,12 @@
         "invert": 0
     },
     {
+        "src": "/assets/sponsors/zentrum_schlossmatt_logo.png",
+        "alt": "Zentrum Schlossmatt Logo",
+        "lnk": "https://www.zsburgdorf.ch/",
+        "invert": 0
+    },
+    {
         "src": "/assets/sponsors/planetary.jpg",
         "alt": "Planetary Logo",
         "lnk": "https://www.planetarygroup.ch/",
@@ -70,6 +76,11 @@
         "alt": "Localnet Logo",
         "lnk": "https://www.localnet.ch/",
         "invert": 0
+    },
+    {
+        "src": "/assets/sponsors/spinup.png",
+        "alt": "SpinUp Logo",
+        "lnk": "https://www.spin-up.ch/",
+        "invert": 1
     }
 ]
-  

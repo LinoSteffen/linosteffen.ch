@@ -114,6 +114,7 @@
     }
 
     .gallery-inner {
+        padding-top: 2vh;
         margin: 5%;
         margin-bottom: 20vh;
         display: flex;
@@ -126,6 +127,13 @@
 
     .gallery-inner {
         margin: 20px;
+    }
+
+    @media screen and (min-width: 700px) {
+        .gallery-inner {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
     }
 
     .iframe-container {
@@ -142,11 +150,9 @@
         width: 100%;
         height: 100%;
         border-radius: 20px;
-
         display: flex;
         justify-content: center;
         align-items: center;
-
         font-size: 100px;
         color: #424549;
         background-color: #1e2124;

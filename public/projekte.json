@@ -1,5 +1,37 @@
 [
     {
+        "title": "10 Jahre Spin-Up",
+        "date": "Februar 2024",
+        "subtitle": "Zum 10-jährigen Jubiläum vom Poledance Studio Spin-Up, habe ich ein besonderes Video erstellt, das die inspirierenden Momente der Feier festhält.",
+        "redirect": "?spinup10years",
+        "image": "/assets/projekte/spinup10years.jpg",
+        "alt": "10 Jahre Spin-Up image"
+    },
+    {
+        "title": "BMW 318is",
+        "date": "2023 - 2024",
+        "subtitle": "Restauration eines seltenen BMW E36 318is aus dem Jahr 1992",
+        "redirect": "?Bmw318is",
+        "image": "/assets/projekte/bmw318is.jpg",
+        "alt": "Bmw 318is image"
+    },
+    {
+        "title": "Kitoko Podcast at Riffelsee",
+        "date": "November 2023",
+        "subtitle": "Dieser Podcast ist einzigartig in der Schweiz. \n Nicht nur das Thema ist faszinierend, sondern auch die atemberaubende Kulisse im Hintergrund.",
+        "redirect": "?kitokopodcastzermatt",
+        "image": "/assets/projekte/kitokopodcastzermatt.jpg",
+        "alt": "kitoko podcast riffelsee image"
+    },
+    {
+        "title": "LoSt",
+        "date": "Seit 2022",
+        "subtitle": "LoSt ist eine Webseite, auf der ich dokumentierte Besuche von Lost Places teile. \n Lost Places sind verlassene Orte, die eine faszinierende Geschichte erzählen.",
+        "redirect": "https://lost.linosteffen.ch/",
+        "image": "/assets/projekte/LoSt.jpg",
+        "alt": "LoSt image"
+    },
+    {
         "title": "Die Wette",
         "date": "2022 - 2023",
         "subtitle": "In dem Kurzfilm 'Die Wette' geht es darum, ob wir wirklich ständig an unserem Handy kleben müssen, vor allem die Jugendlichen. Die Geschichte zeigt, was wir alles verpassen können, wenn wir uns nur noch auf den Bildschirm konzentrieren.",
@@ -22,6 +54,14 @@
         "redirect": "?Domaindelenfer",
         "image": "/assets/projekte/domaindelenfer.jpeg",
         "alt": "Domain de L'Enfer image"
+    },
+    {
+        "title": "Weihnachtsgottesdienst",
+        "date": "Seit 2021",
+        "subtitle": "Weihnachtsgottesdienst in Form eines Videos für das Zentrum Schlossmatt",
+        "redirect": "?Weihnachtsgottesdienst",
+        "image": "/assets/projekte/weihnachtsgottesdienst.jpg",
+        "alt": "Weihnachtsgottesdienst image"
     },
     {
         "title": "Aare Roadtrip",

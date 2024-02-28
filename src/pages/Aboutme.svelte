@@ -30,16 +30,25 @@
             </div>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Telefon: +41 77 498 87 23<br>Email: info@linosteffen.ch</p>
+            <p>Telefon: <a href="tel:+41774988723">+41 77 498 87 23</a><br>Email: <a href="mailto:info@linosteffen.ch">info@linosteffen.ch</a></p>
         </Intersector>
+        <br>
+        <br>
+        <br>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
             <p>Ich erstelle kreative Werbevideos, Filme oder Fotos<br>für einzigartige Momente</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Bei Interesse meldet euch direkt per Mail<br>Ich freue mich auf eine gute Zusammenarbeit</p>
+            <p>Mein professionelles Arbeiten bleibt auch unter <Hoverable text="Druck" gifsrc="/assets/hover/fine.gif" color="#FD5901" alt="gif unter druck"/> stabil</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <img class="ls-icon" src=/icon.png width="25" alt="Lino Steffen Icon">
+            <p>Motivation und <Hoverable text="Kreativität" gifsrc="/assets/hover/kreativitet.gif" color="#FD5901" alt="gif Kreativität"/> stehen im Mittelpunkt meiner Arbeit</p>
+        </Intersector>
+        <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
+            <p>Bei Interesse meldet euch direkt per <Hoverable text="Mail" gifsrc="/assets/hover/mail.gif" color="#FD5901" alt="gif mail"/><br>Ich freue mich auf eine gute Zusammenarbeit</p>
+        </Intersector>
+        <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
+            <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">
         </Intersector>
     </div>    
 </div>
@@ -48,6 +57,21 @@
 <Timeline timelineconfiguration={timelineConfig}/>
 
 <style>
+    a {
+        opacity: 1;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    a:hover {
+        color: #FD5901;
+    }
+
+    .importantword {
+        color: #FD5901;
+        font-weight: bold;
+    }
+
     .main-container-outer {
         width: 100%;
         z-index: 4;
@@ -63,10 +87,6 @@
 
     .main-container-outer p {
         margin-top: 5vh;
-    }
-
-    .main-container-outer .ls-icon {
-        filter: invert(1);
     }
 
     .main-container-inner {

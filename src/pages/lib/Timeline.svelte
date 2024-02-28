@@ -21,7 +21,7 @@
         position: relative;
         padding: 1rem;
         margin: 0 auto;
-        max-width: 1300px;
+        max-width: 1000px;
     }
     .timeline:before {
         content: "";
@@ -47,7 +47,7 @@
 
     .timeline-item {
         border: 2px solid;
-        border-image: linear-gradient(to right, rgb(135, 145, 235) 0%, white 100%);
+        border-image: linear-gradient(to right, #FD5901, white 100%);
         border-image-slice: 1;
 
         position: relative;
@@ -78,16 +78,16 @@
     }
     /* Befor element resembles the triangle (pointer) attached to the item */
 
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 900px) {
         .timeline-item {
-            width: 44%;
+            width: 42%;
             margin: 1rem;
         }
         /* Selects every 2nd element */
         .timeline-item:nth-of-type(2n) {
             float: right;
             margin: 1rem;
-            border-image: linear-gradient(to right, white 0%, rgb(135, 145, 235) 100%);
+            border-image: linear-gradient(to right, white 0%, #FD5901);
             border-image-slice: 1;
         }
         /* Befor element resembles the triangle (pointer) attached to the item */
@@ -129,6 +129,6 @@
         margin: 0;
         margin-top: 1rem;
         font-family: "Raleway", sans-serif;
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
 </style>

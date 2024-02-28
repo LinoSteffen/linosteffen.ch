@@ -40,21 +40,6 @@
 
   let fitMode = 'contained';
 
-  //This function is there to toggle between the screen fit modes
-  const toggleObjectFit = () => {
-    switch (fitMode) {
-      case 'contained':
-        fitMode = 'covered';
-        break;
-      case 'covered':
-        fitMode = 'fill';
-        break;
-      case 'fill':
-        fitMode = 'contained';
-        break;
-    }
-  }
-
   let image;
 
   //This function will load the image when the element is loaded (not when building the DOM)
@@ -66,18 +51,6 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div class="base-image" class:enlarged on:click={resizeImage}>
     <img alt="Click to enlarge" class={fitMode} style="--ImageMHeight: {imageMHeight}px" bind:this={image} on:loadElement={loadElement} use:registerElement>
-
-    <div class="mode-bar">
-        <div class="mode-btn" title="Change fit-mode" on:click|stopPropagation={toggleObjectFit}>
-            <i class="fas fa-retweet"></i>
-        </div>
-        <p class="mode-fitmode">
-            {fitMode}
-        </p>
-        <div class="mode-btn" title="Open in new Tab" on:click|stopPropagation={openImage}>
-            <i class="fas fa-external-link-alt"></i>
-        </div>
-    </div>
 </div>
 
 
@@ -101,25 +74,6 @@
 
     .base-image:not(.enlarged) img:hover {
         scale: 1.1;
-    }
-
-    .base-image .mode-bar {
-        width: 100px;
-        height: 100px;
-        display: none;
-    }
-
-    .base-image .mode-btn {
-        color: gray;
-        font-size: 37px;
-        cursor: pointer;
-    }
-
-    .base-image .mode-fitmode {
-        color: gray;
-        font-size: 30px;
-        font-weight: 800;
-        font-family: 'Raleway', sans-serif;
     }
 
     .enlarged {
@@ -149,27 +103,9 @@
         cursor: default;
     }
 
-    .enlarged .fill {
-        object-fit: fill; 
-    }
-
-    .enlarged .covered {
-        object-fit: cover;
-    }
-
     .enlarged .contained {
         object-fit: contain;
     }
 
-    .enlarged .mode-bar {
-        flex: 1;
-        max-height: 200px;
-        width: 100%;
-        position: relative;
-        transition: all ease .5s;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
+
 </style>

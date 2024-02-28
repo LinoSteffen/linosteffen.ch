@@ -8,12 +8,13 @@
         </div>
     </div>
     <div class="informationdiv">
-        <p class="utext">Produziert von</p>
+        <p class="uebertext">Produziert von</p>
         <p class="text">Lino Steffen</p>
-        <p class="utext">Drehort</p>
+        <p class="uebertext">Drehort</p>
         <p class="text">Greyezersee</p>
-        <p class="utext">Ver&ouml;ffentlichen</p>
+        <p class="uebertext">Ver&ouml;ffentlichung</p>
         <p class="text">Oktober 2022</p>
+        <p class="description">Für dieses Projekt haben wir zwei Kindermodellschiffe, die unser Vater gebaut hat, künstlich in einem See versenkt. Daraus entstand ein äusserst improvisierter Film. Eine weitere Episode ist bereits in Planung.</p>
     </div>
     <div class="ytdiv">
         <div class="responsive-video">
@@ -32,6 +33,9 @@
         <img class="toimg" src="/assets/projekte/deadinthewater/ditw3.jpg" alt="Bild deadinthewater 3">
         <img class="toimg" src="/assets/projekte/deadinthewater/ditw4.jpg" alt="Bild deadinthewater 4">
         <img class="toimg" src="/assets/projekte/deadinthewater/ditw5.jpg" alt="Bild deadinthewater 4">
+    </div>
+    <div class="sponsoren">	
+        <a href="https://linosteffen.ch/" target="_blank"><img class="sponsoren-img-ls" src="LSwhite.png" alt="Logo domaine de lenfer"></a>
     </div>
 </div>
 <style>

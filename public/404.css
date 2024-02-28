@@ -1,78 +1,132 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #0e0e10;;
+    background-color: #04001b;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
+
+/* dont mark or drag images or text*/
+img {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    -user-drag: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} 
+a {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    -user-drag: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+p {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard */
+}
+
+
 
 .logo {
     position: absolute;
-    top: 20px;
+    top: 17px;
     left: 20px;
-    height: 60px;
-    filter: invert(1);
+    height: 50px;
 }
 
-.divmittle {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-}
-
-.heading {
-    font-size: 150px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-/* Button von https://uiverse.io/cssbuttons-io/funny-dog-69 */
-button {
-    --glow-color: rgb(217, 176, 255);
-    --glow-spread-color: rgba(191, 123, 255, 0.781);
-    --enhanced-glow-color: rgb(231, 206, 255);
-    --btn-color: rgb(100, 61, 136);
-    border: .25em solid var(--glow-color);
-    padding: 1em 3em;
-    color: var(--glow-color);
-    font-size: 15px;
-    font-weight: bold;
-    background-color: var(--btn-color);
-    border-radius: 1em;
-    outline: none;
-    box-shadow: 0 0 1em .25em var(--glow-color),
-           0 0 4em 1em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
-    text-shadow: 0 0 .5em var(--glow-color);
-    position: relative;
-    transition: all 0.3s;
-   }
-   
-   button::after {
-    pointer-events: none;
-    content: "";
+.error404 {
     position: absolute;
-    top: 120%;
-    left: 0;
-    height: 100%;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    max-width: 700px;
     width: 100%;
-    background-color: var(--glow-spread-color);
-    filter: blur(2em);
-    opacity: .7;
-    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-   }
-   
-   button:hover {
-    color: var(--btn-color);
-    background-color: var(--glow-color);
-    box-shadow: 0 0 1em .25em var(--glow-color),
-           0 0 4em 2em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
-   }
-   
-   button:active {
-    box-shadow: 0 0 0.6em .25em var(--glow-color),
-           0 0 2.5em 2em var(--glow-spread-color),
-           inset 0 0 .5em .25em var(--glow-color);
-   }
+    line-height: 1.4;
+    text-align: center;
+}
+
+.main404 {
+    position: relative;
+    height: 180px;
+    margin-bottom: 20px;
+    z-index: -1;
+}
+
+.big {
+    color: #707070;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50% , -50%);
+        -ms-transform: translate(-50% , -50%);
+            transform: translate(-50% , -50%);
+    font-size: 150px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -12px;
+    text-transform: uppercase;
+    letter-spacing: -20px;
+}
+@media only screen and (min-width: 750px) {
+    .big {
+        font-size: 224px;
+        font-weight: 900;
+    }
+}
+
+.small {
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 110px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 13px;
+    margin: 0;
+}
+@media only screen and (min-width: 750px) {
+    .small {
+        font-size: 42px;
+        font-weight: 700;
+    }
+}
+
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #FD5901;
+    text-decoration: none;
+    border: 2px solid;
+    background: transparent;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.button:hover {
+    color: #8a3707;
+}

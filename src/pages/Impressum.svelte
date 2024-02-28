@@ -23,7 +23,7 @@
             <p>E-Mail: info@linosteffen.ch</p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <img class="ls-icon" src=/icon.png width="25" alt="Lino Steffen Icon">
+            <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">
         </Intersector>
     </div>
 </div>
@@ -38,7 +38,7 @@
             </p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <img class="ls-icon" src=/icon.png width="25" alt="Lino Steffen Icon">
+            <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">
         </Intersector>
     </div>
 </div>
@@ -53,7 +53,7 @@
             </p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <img class="ls-icon" src=/icon.png width="25" alt="Lino Steffen Icon">
+            <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">
         </Intersector>
     </div>
 </div>
@@ -64,11 +64,11 @@
             <h2>Haftungsausschluss</h2>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <p>Obwohl wir uns bemühen, die Richtigkeit und Aktualität der auf dieser Website bereitgestellten Informationen sicherzustellen, übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. 
+            <p>Obwohl wir uns bemühen, die Richtigkeit und Aktualität der auf dieser Website bereitgestellten Informationen sicherzustellen, übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschliesslich deren Betreiber verantwortlich. 
             </p>
         </Intersector>
         <Intersector styleOnDefault="scale: 0.7;" styleOnIntersect="scale: 1;" transition="all ease 1s">
-            <img class="ls-icon" src=/icon.png width="25" alt="Lino Steffen Icon">
+            <img class="ls-icon" src=./LSwhite.png width="25" alt="Lino Steffen Icon">
         </Intersector>
     </div>
 </div>
@@ -91,9 +91,6 @@
         margin-top: 5vh;
     }
 
-    .main-container-outer img {
-        filter: invert(1);
-    }
 
     .main-container-inner {
         padding: 20px;

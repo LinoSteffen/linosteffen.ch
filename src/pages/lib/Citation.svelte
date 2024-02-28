@@ -1,4 +1,3 @@
-
 <script>
     export let content;
     export let author;
@@ -27,7 +26,7 @@
 
     blockquote p {
         font-family: 'Raleway', sans-serif;
-        background: linear-gradient(45deg, white, black);
+        background: linear-gradient(45deg, #FD5901, #005F60);
         background-size: 200% 200%;
         background-clip: text;
         color: transparent;

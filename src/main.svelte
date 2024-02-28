@@ -7,11 +7,15 @@
 	import Galerie from './pages/Galerie.svelte';
 	import About from './pages/Aboutme.svelte';
 	import Impressum from './pages/Impressum.svelte';
-    import Trailer from './pages/lib/Trailer.svelte';
+    //import Trailer from './pages/lib/Trailer.svelte';
     import Placeholder from './pages/lib/Placeholder.svelte';
     import Domaindelenfer from './pages/projects/Domaindelenfer.svelte';
     import Aareroadtrip from './pages/projects/Aareroadtrip.svelte';
     import Deadinthewater from './pages/projects/Deadinthewater.svelte';
+	import Bmw318is from './pages/projects/Bmw318is.svelte';
+	import Weihnachtsgottesdienst from './pages/projects/Weihnachtsgottesdienst.svelte';
+	import spinup10years from './pages/projects/spinup10years.svelte';	
+	import kitokopodcastzermatt from './pages/projects/kitokopodcastzermatt.svelte';
 
 	const urlParams = new URLSearchParams(window.location.search);	
 	const firstParam = urlParams.entries().next().value;	
@@ -75,6 +79,14 @@
 			return Aareroadtrip;
 			case "Deadinthewater":
 			return Deadinthewater;
+			case "Bmw318is":
+			return Bmw318is;
+			case "Weihnachtsgottesdienst":
+			return Weihnachtsgottesdienst;
+			case "spinup10years":
+			return spinup10years;
+			case "kitokopodcastzermatt":
+			return kitokopodcastzermatt;
 			default:
 			return Home;
 		}
@@ -93,7 +105,7 @@
 	});
 </script>
 
-<Trailer opacity={trailerOpacity} />
+<!-- <Trailer opacity={trailerOpacity} /> -->
 
 <Navbar setActivePage="{setActivePage}" navbarStateStore="{navbarStore}"/>
   
