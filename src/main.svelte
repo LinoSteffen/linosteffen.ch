@@ -16,7 +16,7 @@
 	import Weihnachtsgottesdienst from './pages/projects/Weihnachtsgottesdienst.svelte';
 	import spinup10years from './pages/projects/spinup10years.svelte';	
 	import kitokopodcastzermatt from './pages/projects/kitokopodcastzermatt.svelte';
-	import B250jahrekadettenburgdorf from './pages/projects/B250jahrekadettenburgdorf.svelte';
+	import jubilaeum250kadettenburgdorf from './pages/projects/jubilaeum250kadettenburgdorf.svelte';
 
 	const urlParams = new URLSearchParams(window.location.search);	
 	const firstParam = urlParams.entries().next().value;	
@@ -88,8 +88,8 @@
 			return spinup10years;
 			case "kitokopodcastzermatt":
 			return kitokopodcastzermatt;
-			case "B250jahrekadettenburgdorf":
-			return B250jahrekadettenburgdorf;
+			case "jubilaeum250kadettenburgdorf":
+			return jubilaeum250kadettenburgdorf;
 			default:
 			return Home;
 		}
