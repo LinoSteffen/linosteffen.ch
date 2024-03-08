@@ -82,5 +82,11 @@
         "alt": "SpinUp Logo",
         "lnk": "https://www.spin-up.ch/",
         "invert": 1
+    },
+    {
+        "src": "/assets/sponsors/kadettenburgdorf.png",
+        "alt": "Kadetten Burgdorf Logo",
+        "lnk": "https://www.kadetten-burgdorf.ch/",
+        "invert": 0
     }
 ]

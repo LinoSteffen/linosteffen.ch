@@ -201,6 +201,14 @@
 .sponsoren-img-kitoko:hover {
     transform: scale(1.15);
 }
+.sponsoren-img-kadetten-burgdorf {
+    width: 150px;
+    padding: 30px;
+    transition: all .3s ease-in-out;
+}
+.sponsoren-img-kadetten-burgdorf:hover {
+    transform: scale(1.15);
+}
 
 
 .gallery {
@@ -248,6 +256,19 @@
     .videoexternimage {
     height: auto;
     width: 100%;
+    }
+}
+.imagesexternimage {
+    width: 70%;
+    transition: .4s;
+}
+.imagesexternimage:hover {
+    transform: scale(1.08);
+}
+@media (max-width: 550px) {
+    .imagesexternimage {
+    height: auto;
+    width: 90%;
     }
 }
 
